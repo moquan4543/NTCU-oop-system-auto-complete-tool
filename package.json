@@ -1,0 +1,11 @@
+{
+  "name": "kong-lao-auto-submit-extension",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "vite": "^5"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Kong Lao Auto Submit Assistant",
+  "version": "1.0.0",
+  "description": "Auto workflow for problem solving",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://oop.seilab.uk/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://oop.seilab.uk/Game/problem/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
