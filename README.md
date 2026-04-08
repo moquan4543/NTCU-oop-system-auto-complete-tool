@@ -16,3 +16,4 @@ bun install
 
 vite build
 ```
+Or go to [release](https://github.com/moquan4543/NTCU-oop-system-auto-complete-tool/releases) get built version
