@@ -41,20 +41,6 @@ export async function waitForGenerateComplete(
   const getBtn = () =>
     document.querySelector(selector) as HTMLButtonElement | null
 
-  // 1️⃣ 等進入 loading（disabled = true）
-  while (true) {
-    const btn = getBtn()
-    if (!btn) throw new Error('Generate button not found')
-
-    if (btn.disabled) break
-
-    if (Date.now() - start > timeout) {
-      throw new Error('Timeout waiting for generate start')
-    }
-
-    await sleep(100)
-  }
-
   while (true) {
     const btn = getBtn()
     if (!btn) throw new Error('Generate button lost')
