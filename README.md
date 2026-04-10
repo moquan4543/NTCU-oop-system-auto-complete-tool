@@ -16,4 +16,6 @@ bun install
 
 vite build
 ```
-Or go to [release](https://github.com/moquan4543/NTCU-oop-system-auto-complete-tool/releases) to get the built version
+Then you can see the built files in the `.dist` directory.
+
+Or go to [release](https://github.com/moquan4543/NTCU-oop-system-auto-complete-tool/releases) to get the built version.
